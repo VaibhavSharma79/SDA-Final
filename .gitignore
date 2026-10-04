@@ -1,0 +1,46 @@
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local config and secrets (credentials in this project are course-demo values and live in compose;
+# anything real, e.g. SMTP/Slack for Phase 8, goes in .env and must never be committed)
+.env
+.env.*
+!.env.example
+docker-compose.override.yml
+
+# Scratch space (e.g. regenerating data into a temp folder to check determinism, Phase 0)
+tmp/
+scratch/
+*.log
+
+# Playwright / browser tooling used for dashboard screenshots (the screenshots themselves, docs/screenshots/, ARE tracked)
+.playwright/
+playwright-report/
+test-results/
+node_modules/
+
+# Excel lock/temp files next to the master workbook (the workbook itself IS tracked)
+~$*.xlsx
+.~lock.*#
+
+# Claude Code local state
+.claude/settings.local.json
+CLAUDE.md
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

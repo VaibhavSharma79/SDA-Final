@@ -1,0 +1,124 @@
+location_code,entity,office_type,city,seats_total,first_start_date,master_rows
+PB_AP_GUN_Gorantla,Policybazaar,FOS-Policy,Guntur,6,2025-12-15,1
+PB_AP_VIJ_Lakshmi Nagar,Paisabazaar,Server,Vijayawada,0,2025-11-05,1
+PB_AP_VIJ_Lakshmi Nagar,Policybazaar,FOS-Policy,Vijayawada,10,2025-11-01,1
+PB_AP_VIJ_Patamata,PB Partner,Exp-Centre,Vijayawada,28,2026-02-01,1
+PB_AP_Vizag_Allipuram,Policybazaar,FOS-Policy,Visakhapatnam,19,2025-12-01,1
+PB_AS_GUH_Ganshguri,PB Partner,Exp-Centre,Guwahati,19,2025-02-17,1
+PB_AS_GUH_Mezzanine,Policybazaar,FOS-Policy,Guwahati,15,2025-07-25,1
+PB_BR_PATNA_Ashiana,PB Partner,Exp-Centre,Patna,26,2024-07-01,1
+PB_BR_PAT_Kankarbagh,Policybazaar,FOS-Policy,Patna,15,2025-08-20,1
+PB_CG_RAI_Dhamtari Road,PB Partner,Exp-Centre,Raipur,18,2026-02-15,1
+PB_CH_CHD_Plot No 213,Paisabazaar,Store-Paisa-PB Connect,Chandigarh,5,2026-03-16,1
+PB_CH_CHD_Plot No 213,Policybazaar,FOS-Policy,Chandigarh,25,2025-07-23,1
+PB_CH_CHD_Sector27-C,PB Partner,Exp-Centre,Chandigarh,12,2025-09-15,1
+PB_DL_DEL_AggarwalCyberPlaza,Paisabazaar,Store-Paisa-BL Retail,Delhi,6,2025-12-16,1
+PB_DL_DEL_BP-7 West Patel Nagar,Paisabazaar,Corp,Delhi,449,2024-06-24,3
+PB_DL_DEL_BP-7 West Patel Nagar,Policybazaar,Branch Office,Delhi,128,2024-11-01,1
+PB_DL_DEL_Kailash,PB Partner,Exp-Centre,Delhi,50,2025-10-10,1
+PB_DL_DEL_Lajpat Nagar,Paisabazaar,Store-Paisa-BL Retail,Delhi,5,2025-09-11,1
+PB_DL_DEL_Shakarpur,Policybazaar,Branch Office,Delhi,49,2023-09-18,1
+PB_DL_DEL_Vasantkunj,Paisabazaar,Store-Paisa-BL Retail,Delhi,3,2026-03-12,1
+PB_GU_AHM_Gandhinagar,Policybazaar,Internaltional,Ahmedabad,39,2026-04-01,1
+PB_GU_AHM_Vastrapur,PB Partner,Exp-Centre,Ahmedabad,18,2025-08-01,1
+PB_GU_AHM_VijayCross,Paisabazaar,Store-Paisa-PB Connect,Ahmedabad,10,2026-02-25,1
+PB_GU_AHM_VijayCross,Policybazaar,FOS-Policy,Ahmedabad,15,2025-10-07,1
+PB_GU_RAJ_Raiya Road,PB Partner,Exp-Centre,Rajkot,14,2026-02-15,1
+PB_GU_SUR_Palladium Mall,Policybazaar,FOS-Policy,Surat,7,2026-01-17,1
+PB_GU_SUR_Vasupujya,PB Partner,Exp-Centre,Surat,14,2026-03-09,1
+PB_GU_VAD_Gautam Nagar,PB Partner,Exp-Centre,Vadodara,21,2025-09-22,1
+PB_HR_GUR_P105-Sector44,Policybazaar,Corp,Gurgaon,706,2026-02-20,1
+PB_HR_GUR_P107-Sector44,PB Pay,Corp,Gurgaon,46,2024-12-24,1
+PB_HR_GUR_P109-Sector44,PB Partner,Corp,Gurgaon,593,2022-06-22,1
+PB_HR_GUR_P110-Sector44,PB Partner,Corp,Gurgaon,386,2024-06-12,1
+PB_HR_GUR_P110-Sector44,Paisabazaar,Corp,Gurgaon,465,2024-06-12,1
+PB_HR_GUR_P110-Sector44,Pensionbazaar,Corp,Gurgaon,0,2024-06-12,1
+PB_HR_GUR_P116-Sector44,PB HealthCare,Corp,Gurgaon,64,2025-08-01,1
+PB_HR_GUR_P116-Sector44,Policybazaar,Corp,Gurgaon,298,2025-08-01,1
+PB_HR_GUR_P117-Sector44,Policybazaar,Corp,Gurgaon,135,2026-02-10,1
+PB_HR_GUR_P119-Sector44,PB Fintech,Corp,Gurgaon,91,2025-06-01,1
+PB_HR_GUR_P119-Sector44,Policybazaar,Corp,Gurgaon,261,2025-06-01,1
+PB_HR_GUR_P120-Sector44,Policybazaar,Corp,Gurgaon,507,2024-07-15,1
+PB_HR_GUR_P129-Sector44,PB Partner,Corp,Gurgaon,141,2025-11-01,1
+PB_HR_GUR_P129-Sector44,Paisabazaar,Corp,Gurgaon,982,2021-04-15,1
+PB_HR_GUR_P131-Sector44,Icall Support,Branch Office,Gurgaon,144,2026-01-17,1
+PB_HR_GUR_P131-Sector44,PB Partner,Branch Office,Gurgaon,96,2024-02-01,1
+PB_HR_GUR_P135-Sector44,Paisabazaar,Corp,Gurgaon,397,2022-04-01,1
+PB_HR_GUR_P205_Jail land,Paisabazaar,Store-Paisa-BL Retail,Gurgaon,5,2025-08-16,1
+PB_HR_GUR_P28-Sector44,PBFB,Corp,Gurgaon,568,2024-07-15,2
+PB_HR_GUR_P28-Sector44,Policybazaar,Corp,Gurgaon,2421,2024-07-15,2
+PB_HR_GUR_P47-Sector44,Policybazaar,Corp,Gurgaon,1682,2023-04-21,1
+PB_HR_GUR_P49-Sector44,Policybazaar,Corp,Gurgaon,1059,2023-07-19,1
+PB_HR_GUR_P57-Sector44,Policybazaar,Corp,Gurgaon,1676,2024-05-25,1
+PB_HR_GUR_P84-Sector44,Icall Support,Corp,Gurgaon,712,2022-07-01,2
+PB_HR_GUR_P84-Sector44,Policybazaar,Corp,Gurgaon,20,2022-07-01,1
+PB_HR_GUR_P95-Sector44,Policybazaar,Corp,Gurgaon,1011,2025-07-01,1
+PB_JH_RAN_Jokhiram Chamber,PB Partner,Exp-Centre,Ranchi,26,2025-12-15,1
+PB_JH_RAN_Ratu Road Chowk,Policybazaar,FOS-Policy,Ranchi,8,2025-09-01,1
+PB_KL_KOC_Ernakulam,Policybazaar,Corp,Kochi,658,2023-11-05,4
+PB_KT_BAN_Diamond District,Policybazaar,Corp,Bengaluru,377,2022-08-01,2
+PB_KT_BAN_Electronics City,Policybazaar,FOS-Policy,Bengaluru,20,2025-10-09,1
+PB_KT_BAN_HM Towers,PBFB,Branch Office,Bengaluru,55,2024-03-25,1
+PB_KT_BAN_HM Towers,Paisabazaar,Branch Office,Bengaluru,35,2025-05-01,1
+PB_KT_BAN_Reliable Phoenix Tower,PB Partner,Exp-Centre,Bengaluru,45,2025-10-23,1
+PB_KT_BAN_Richmond Town,PB Partner,Exp-Centre,Bengaluru,18,2026-02-14,1
+PB_KT_Hubli_Deshpande Nagar,PB Partner,Exp-Centre,Hubli,13,2026-03-10,1
+PB_KT_MYS_1stMain_Temple_Road,PB Partner,Exp-Centre,Mysore,18,2026-03-10,1
+PB_KT_MYS_Hebbal_1stStage,Paisabazaar,Branch Office,Mysore,50,2025-08-01,1
+PB_KT_MYS_Hebbal_1stStage,Policybazaar,Server,Mysore,0,2025-10-27,1
+PB_MH_AUR_Silk Mill Colony,Policybazaar,FOS-Policy,Aurangabad,13,2025-10-15,1
+PB_MH_MUM_Akshar Business park,PB Partner,Exp-Centre,Mumbai,41,2026-02-24,1
+PB_MH_MUM_Kurla_West_525,PBFB,Branch Office,Mumbai,15,2022-08-10,1
+PB_MH_MUM_Kurla_West_526,PBFB,Branch Office,Mumbai,30,2023-05-01,1
+PB_MH_MUM_Mahape,Policybazaar,Branch Office,Mumbai,60,2023-11-13,1
+PB_MH_MUM_Malad East,PB Partner,Exp-Centre,Mumbai,40,2025-12-12,1
+PB_MH_MUM_Malad West,Paisabazaar,Corp,Mumbai,306,2022-08-11,2
+PB_MH_MUM_Malad West,Policybazaar,Corp,Mumbai,1456,2021-12-01,4
+PB_MH_MUM_Thane West,Policybazaar,Store-Policy,Mumbai,8,2025-11-25,1
+PB_MH_NAG_Bhagwaghar Layout,PB Partner,Exp-Centre,Nagpur,16,2026-03-10,1
+PB_MH_NAG_Kotwal Nagar,Policybazaar,Store-Policy,Nagpur,10,2025-08-01,1
+PB_MH_NAG_Sawarkar Nagar,Policybazaar,FOS-Policy,Nagpur,20,2025-06-23,1
+PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,Nashik,20,2025-12-11,1
+PB_MH_PUN_Nucleus Mall,PBFB,Store-Policy,Pune,6,2026-03-16,1
+PB_MH_PUN_Shivaji Nagar,Policybazaar,Corp,Pune,147,2022-07-25,1
+PB_MH_PUN_Shivaji Nagar_WingB,Policybazaar,Branch Office,Pune,29,2026-05-01,1
+PB_MH_PUN_Swargate,PB Partner,Exp-Centre,Pune,16,2026-02-20,1
+PB_MH_Thane West_Khopat,Paisabazaar,Branch Office,Mumbai,37,2024-09-01,1
+PB_MP_BHO_AmbikaArcade,PB Partner,Exp-Centre,Bhopal,22,2025-10-10,1
+PB_MP_BHO_INDRAPURI,Policybazaar,FOS-Policy,Bhopal,15,2025-09-25,1
+PB_MP_IND_Nexus Spaces,PB Partner,Exp-Centre,Indore,21,2025-10-01,1
+PB_MP_IND_Race Course Road,Policybazaar,FOS-Policy,Indore,15,2025-08-01,1
+PB_OD_BHU_BapujiNagar,PB Partner,Exp-Centre,Bhubaneswar,19,2026-05-01,1
+PB_OD_BHU_Bhoi Nagar,Paisabazaar,Server,Bhubaneswar,0,2025-06-01,1
+PB_OD_BHU_Bhoi Nagar,Policybazaar,Corp,Bhubaneswar,122,2024-03-01,2
+PB_PB_LUD_Krishana Nagar_Aarti,PB Partner,Exp-Centre,Ludhiana,32,2024-05-25,1
+PB_RJ_JAI_Shivraj Niketan,Paisabazaar,Store-Paisa-PB Connect,Jaipur,10,2026-02-03,1
+PB_RJ_JAI_Shivraj Niketan,Policybazaar,FOS-Policy,Jaipur,25,2026-02-03,1
+PB_RJ_JAI_Subhash Marg,PB Partner,Exp-Centre,Jaipur,25,2025-12-15,1
+PB_TN_CHE_IIFL Tower,Policybazaar,Corp,Chennai,302,2024-05-15,1
+PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,Chennai,16,2026-02-10,1
+PB_TN_CHE_TidelPark Taramani,Paisabazaar,Corp,Chennai,245,2021-11-05,1
+PB_TN_CHE_TidelPark Taramani,Policybazaar,Corp,Chennai,95,2021-11-05,1
+PB_TN_COI_Peelamedu,Policybazaar,FOS-Policy,Coimbatore,20,2026-05-01,1
+PB_TN_COI_Trichy Road,PB Partner,Exp-Centre,Coimbatore,22,2025-07-16,1
+PB_TS_HYD_Begumpet,Paisabazaar,Corp,Hyderabad,180,2025-07-05,1
+PB_TS_HYD_HITECH City,Policybazaar,Corp,Hyderabad,0,2026-05-01,1
+PB_TS_HYD_Ranga Reddy District,Policybazaar,Corp,Hyderabad,1308,2022-10-13,4
+PB_TS_HYD_Somajiguda,PB Partner,Exp-Centre,Hyderabad,42,2024-08-01,1
+PB_Tripura_Agartala_Chowmuhani ,PB Partner,Exp-Centre,Agartala,18,2024-11-20,1
+PB_UK_Deh_NCR Plaza,PB Partner,Exp-Centre,Dehradun,22,2025-11-01,1
+PB_UP_AGR_CORP_Sanjay Place,Policybazaar,FOS-Policy,Agra,15,2025-08-15,1
+PB_UP_GHA_Kaushambi,Paisabazaar,Store-Paisa-BL Retail,Ghaziabad,5,2026-02-16,1
+PB_UP_KAN_Civil Lines,PB Partner,Exp-Centre,Kanpur,0,2026-01-21,1
+PB_UP_LUC_Eldeco Chamber 2,Paisabazaar,Store-Paisa-PB Connect,Lucknow,12,2026-03-15,1
+PB_UP_LUC_Eldeco Chamber 2,Policybazaar,FOS-Policy,Lucknow,28,2025-08-01,1
+PB_UP_LUC_GomtiNagar_TC-57-V,PB Partner,Exp-Centre,Lucknow,20,2024-07-01,1
+PB_UP_MER_OM Tower,Policybazaar,FOS-Policy,Meerut,12,2025-09-08,1
+PB_UP_NOI_Sector 15,Paisabazaar,Store-Paisa-BL Retail,Noida,5,2025-08-22,1
+PB_UP_NOI_Sector 58,PBFB,Branch Office,Noida,12,2026-04-16,1
+PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,Noida,28,2025-07-12,1
+PB_UP_VAR_ABC Tower,Policybazaar,FOS-Policy,Varanasi,10,2025-11-21,1
+PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,Varanasi,14,2026-04-01,1
+PB_WB_KOL_Bidhannagar,Policybazaar,Corp,Kolkata,196,2024-09-03,1
+PB_WB_KOL_Godrej Genesis,Paisabazaar,Store-Paisa-PB Connect,Kolkata,10,2024-09-03,1
+PB_WB_KOL_Kankaria Estate,PB Partner,Exp-Centre,Kolkata,48,2025-08-01,1

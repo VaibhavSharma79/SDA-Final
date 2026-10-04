@@ -1,0 +1,119 @@
+alert_id,stream,event_id,rule_id,severity,event_ts,location_code,entity,office_type,expected,actual,detail
+ALR-0001,SITE_SYNC,SYN-00013,ENTITY_MISMATCH,MEDIUM,2026-06-01T06:28:36.319+05:30,PB_AP_VIJ_Patamata,Icall Support,Exp-Centre,PB Partner,Icall Support,entity not registered at this location code
+ALR-0002,SITE_SYNC,SYN-00014,MISSING_LOCATION_CODE,HIGH,2026-06-01T06:30:48.974+05:30,,Paisabazaar,Store-Paisa-PB Connect,non-empty location code,<blank>,ERP record has no location code
+ALR-0003,SITE_SYNC,SYN-00018,ENTITY_MISMATCH,MEDIUM,2026-06-01T06:54:52.719+05:30,PB_MH_MUM_Malad West,PB Partner,Corp,Paisabazaar / Policybazaar,PB Partner,entity not registered at this location code
+ALR-0004,SITE_SYNC,SYN-00019,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T06:55:36.489+05:30,PB_PB_LUD_Ferozepur Road,PB Partner,Branch Office,code present in master,'PB_PB_LUD_Ferozepur Road',location code not found in master
+ALR-0005,SITE_SYNC,SYN-00030,SEAT_COUNT_VARIANCE,LOW,2026-06-01T07:22:13.638+05:30,PB_HR_GUR_P135-Sector44,Paisabazaar,Corp,397,391,diff -6 seats (1.5%) within 5% bracket
+ALR-0006,SITE_SYNC,SYN-00061,MISSING_LOCATION_CODE,HIGH,2026-06-01T08:39:39.519+05:30,,Policybazaar,FOS-Policy,non-empty location code,<blank>,ERP record has no location code
+ALR-0007,OCCUPANCY,OCC-002681,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T08:47:00.070+05:30,PB_KT_MYS_Hebbal_1stStage,Policybazaar,Server,0 seats in master,occupancy 1,check-in at a pool with 0 master seats
+ALR-0008,SITE_SYNC,SYN-00064,SEAT_COUNT_VARIANCE,LOW,2026-06-01T08:51:30.348+05:30,PB_HR_GUR_P119-Sector44,PB Fintech,Corp,91,95,diff +4 seats (4.4%) within 5% bracket
+ALR-0009,OCCUPANCY,OCC-004552,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:08:57.080+05:30,PB_KT_MYS_Hebbal_1stStage,Policybazaar,Server,0 seats in master,occupancy 2,check-in at a pool with 0 master seats
+ALR-0010,SITE_SYNC,SYN-00077,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T09:24:37.688+05:30,PB_MP_BHO_AmbikaArcade,PB Partner,Server,Exp-Centre,Server,office type not registered for this code + entity
+ALR-0011,SITE_SYNC,SYN-00079,ENTITY_MISMATCH,MEDIUM,2026-06-01T09:25:40.040+05:30,PB_KL_KOC_Ernakulam,PB Pay,Corp,Policybazaar,PB Pay,entity not registered at this location code
+ALR-0012,OCCUPANCY,OCC-006335,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:26:46.860+05:30,PB_UP_KAN_Civil Lines,PB Partner,Exp-Centre,0 seats in master,occupancy 1,check-in at a pool with 0 master seats
+ALR-0013,OCCUPANCY,OCC-007398,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:37:23.705+05:30,PB_TS_HYD_HITECH City,Policybazaar,Corp,0 seats in master,occupancy 1,check-in at a pool with 0 master seats
+ALR-0014,OCCUPANCY,OCC-007843,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:41:48.634+05:30,PB_HR_GUR_P110-Sector44,Pensionbazaar,Corp,0 seats in master,occupancy 1,check-in at a pool with 0 master seats
+ALR-0015,OCCUPANCY,OCC-007940,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:42:37.929+05:30,PB_AP_VIJ_Lakshmi Nagar,Paisabazaar,Server,0 seats in master,occupancy 1,check-in at a pool with 0 master seats
+ALR-0016,SITE_SYNC,SYN-00093,CITY_MISMATCH,MEDIUM,2026-06-01T09:45:47.744+05:30,PB_MH_NAG_Sawarkar Nagar,Policybazaar,FOS-Policy,Nagpur,Surat,city differs from master
+ALR-0017,OCCUPANCY,OCC-008388,NEAR_CAPACITY,LOW,2026-06-01T09:47:02.861+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,< 13,13,occupancy 13/14 (93%) crossed the 90% bracket
+ALR-0018,OCCUPANCY,OCC-008412,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:47:17.498+05:30,PB_HR_GUR_P110-Sector44,Pensionbazaar,Corp,0 seats in master,occupancy 2,check-in at a pool with 0 master seats
+ALR-0019,OCCUPANCY,OCC-008548,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T09:48:40.138+05:30,PB_TS_HYD_HITECH City,Policybazaar,Corp,0 seats in master,occupancy 2,check-in at a pool with 0 master seats
+ALR-0020,SITE_SYNC,SYN-00095,ENTITY_MISMATCH,MEDIUM,2026-06-01T09:49:08.310+05:30,PB_MH_PUN_Shivaji Nagar_WingB,PB Fintech,Branch Office,Policybazaar,PB Fintech,entity not registered at this location code
+ALR-0021,OCCUPANCY,OCC-008882,NEAR_CAPACITY,LOW,2026-06-01T09:52:11.919+05:30,PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,< 15,15,occupancy 15/16 (94%) crossed the 90% bracket
+ALR-0022,OCCUPANCY,OCC-008928,NEAR_CAPACITY,LOW,2026-06-01T09:52:38.458+05:30,PB_GU_AHM_VijayCross,Paisabazaar,Store-Paisa-PB Connect,< 9,9,occupancy 9/10 (90%) crossed the 90% bracket
+ALR-0023,OCCUPANCY,OCC-009343,OVER_CAPACITY,CRITICAL,2026-06-01T09:56:57.189+05:30,PB_GU_AHM_VijayCross,Paisabazaar,Store-Paisa-PB Connect,<= 10,11,occupancy 11/10 (110%)
+ALR-0024,SITE_SYNC,SYN-00099,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T09:59:32.912+05:30,PB_TS_HYD_Ranga Reddy District,Policybazaar,Exp-Centre,Corp,Exp-Centre,office type not registered for this code + entity
+ALR-0025,OCCUPANCY,OCC-009714,OVER_CAPACITY,CRITICAL,2026-06-01T10:01:11.447+05:30,PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,<= 16,17,occupancy 17/16 (106%)
+ALR-0026,OCCUPANCY,OCC-009727,OVER_CAPACITY,CRITICAL,2026-06-01T10:01:22.986+05:30,PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,<= 16,18,occupancy 18/16 (112%)
+ALR-0027,OCCUPANCY,OCC-009838,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T10:02:51.492+05:30,PB_HR_GUR_P110-Sector44,Pensionbazaar,Corp,0 seats in master,occupancy 3,check-in at a pool with 0 master seats
+ALR-0028,SITE_SYNC,SYN-00101,ENTITY_MISMATCH,MEDIUM,2026-06-01T10:04:32.016+05:30,PB_WB_KOL_Kankaria Estate,PB Fintech,Exp-Centre,PB Partner,PB Fintech,entity not registered at this location code
+ALR-0029,OCCUPANCY,OCC-010239,OVER_CAPACITY,CRITICAL,2026-06-01T10:07:59.070+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,<= 14,15,occupancy 15/14 (107%)
+ALR-0030,OCCUPANCY,OCC-010283,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T10:08:34.756+05:30,PB_AP_VIJ_Lakshmi Nagar,Paisabazaar,Server,0 seats in master,occupancy 2,check-in at a pool with 0 master seats
+ALR-0031,OCCUPANCY,OCC-010674,OVER_CAPACITY,CRITICAL,2026-06-01T10:13:21.647+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,<= 14,16,occupancy 16/14 (114%)
+ALR-0032,OCCUPANCY,OCC-010682,OVER_CAPACITY,CRITICAL,2026-06-01T10:13:23.941+05:30,PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,<= 16,19,occupancy 19/16 (119%)
+ALR-0033,SITE_SYNC,SYN-00107,CITY_MISMATCH,MEDIUM,2026-06-01T10:14:27.261+05:30,PB_HR_GUR_P28-Sector44,Policybazaar,Corp,Gurgaon,Vijayawada,city differs from master
+ALR-0034,SITE_SYNC,SYN-00109,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T10:14:35.696+05:30,PB_MH_MUM_Kurla_West_52U,PBFB,Branch Office,code present in master,'PB_MH_MUM_Kurla_West_52U',location code not found in master
+ALR-0035,SITE_SYNC,SYN-00111,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T10:16:08.008+05:30,PB_WB_KOL_Salt Lake Sector V,PB Partner,Exp-Centre,code present in master,'PB_WB_KOL_Salt Lake Sector V',location code not found in master
+ALR-0036,OCCUPANCY,OCC-011264,NEAR_CAPACITY,LOW,2026-06-01T10:21:47.984+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,< 18,18,occupancy 18/20 (90%) crossed the 90% bracket
+ALR-0037,OCCUPANCY,OCC-011318,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T10:22:30.999+05:30,PB_UP_KAN_Civil Lines,PB Partner,Exp-Centre,0 seats in master,occupancy 2,check-in at a pool with 0 master seats
+ALR-0038,OCCUPANCY,OCC-011492,NEAR_CAPACITY,LOW,2026-06-01T10:25:13.526+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,< 26,26,occupancy 26/28 (93%) crossed the 90% bracket
+ALR-0039,OCCUPANCY,OCC-011553,ZERO_SEAT_CHECKIN,HIGH,2026-06-01T10:26:15.618+05:30,PB_UP_KAN_Civil Lines,PB Partner,Exp-Centre,0 seats in master,occupancy 3,check-in at a pool with 0 master seats
+ALR-0040,OCCUPANCY,OCC-011560,OVER_CAPACITY,CRITICAL,2026-06-01T10:26:23.073+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,<= 14,17,occupancy 17/14 (121%)
+ALR-0041,OCCUPANCY,OCC-011818,NEAR_CAPACITY,LOW,2026-06-01T10:30:39.509+05:30,PB_KT_BAN_HM Towers,Paisabazaar,Branch Office,< 32,32,occupancy 32/35 (91%) crossed the 90% bracket
+ALR-0042,OCCUPANCY,OCC-011825,OVER_CAPACITY,CRITICAL,2026-06-01T10:30:43.984+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,<= 20,21,occupancy 21/20 (105%)
+ALR-0043,OCCUPANCY,OCC-011865,NEAR_CAPACITY,LOW,2026-06-01T10:31:31.678+05:30,PB_CH_CHD_Sector27-C,PB Partner,Exp-Centre,< 11,11,occupancy 11/12 (92%) crossed the 90% bracket
+ALR-0044,OCCUPANCY,OCC-011914,NEAR_CAPACITY,LOW,2026-06-01T10:32:29.745+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,< 235,235,occupancy 235/261 (90%) crossed the 90% bracket
+ALR-0045,OCCUPANCY,OCC-011935,OVER_CAPACITY,CRITICAL,2026-06-01T10:32:51.680+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,<= 20,22,occupancy 22/20 (110%)
+ALR-0046,OCCUPANCY,OCC-011948,NEAR_CAPACITY,LOW,2026-06-01T10:33:04.206+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,< 269,269,occupancy 269/298 (90%) crossed the 90% bracket
+ALR-0047,OCCUPANCY,OCC-012026,OVER_CAPACITY,CRITICAL,2026-06-01T10:34:32.696+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,29,occupancy 29/28 (104%)
+ALR-0048,OCCUPANCY,OCC-012093,OVER_CAPACITY,CRITICAL,2026-06-01T10:36:00.355+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,<= 20,23,occupancy 23/20 (115%)
+ALR-0049,OCCUPANCY,OCC-012108,OVER_CAPACITY,CRITICAL,2026-06-01T10:36:19.013+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,30,occupancy 30/28 (107%)
+ALR-0050,OCCUPANCY,OCC-012121,NEAR_CAPACITY,LOW,2026-06-01T10:36:35.455+05:30,PB_HR_GUR_P131-Sector44,PB Partner,Branch Office,< 87,87,occupancy 87/96 (91%) crossed the 90% bracket
+ALR-0051,OCCUPANCY,OCC-012145,OVER_CAPACITY,CRITICAL,2026-06-01T10:37:01.450+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,31,occupancy 31/28 (111%)
+ALR-0052,OCCUPANCY,OCC-012156,NEAR_CAPACITY,LOW,2026-06-01T10:37:19.802+05:30,PB_WB_KOL_Godrej Genesis,Paisabazaar,Store-Paisa-PB Connect,< 9,9,occupancy 9/10 (90%) crossed the 90% bracket
+ALR-0053,OCCUPANCY,OCC-012345,NEAR_CAPACITY,LOW,2026-06-01T10:40:45.255+05:30,PB_MP_BHO_INDRAPURI,Policybazaar,FOS-Policy,< 14,14,occupancy 14/15 (93%) crossed the 90% bracket
+ALR-0054,OCCUPANCY,OCC-012520,OVER_CAPACITY,CRITICAL,2026-06-01T10:44:51.775+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,32,occupancy 32/28 (114%)
+ALR-0055,OCCUPANCY,OCC-012578,NEAR_CAPACITY,LOW,2026-06-01T10:46:23.247+05:30,PB_Tripura_Agartala_Chowmuhani ,PB Partner,Exp-Centre,< 17,17,occupancy 17/18 (94%) crossed the 90% bracket
+ALR-0056,OCCUPANCY,OCC-012607,NEAR_CAPACITY,LOW,2026-06-01T10:47:27.119+05:30,PB_AS_GUH_Mezzanine,Policybazaar,FOS-Policy,< 14,14,occupancy 14/15 (93%) crossed the 90% bracket
+ALR-0057,SITE_SYNC,SYN-00125,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T10:47:59.831+05:30,PB_MH_PUN_Swargate,PB Partner,Exp-Centre,16,11,diff -5 seats (31.2%) exceeds 5% bracket
+ALR-0058,OCCUPANCY,OCC-012688,OVER_CAPACITY,CRITICAL,2026-06-01T10:49:30.786+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,<= 20,24,occupancy 24/20 (120%)
+ALR-0059,OCCUPANCY,OCC-012711,NEAR_CAPACITY,LOW,2026-06-01T10:50:17.448+05:30,PB_KT_BAN_Diamond District,Policybazaar,Corp,< 340,340,occupancy 340/377 (90%) crossed the 90% bracket
+ALR-0060,OCCUPANCY,OCC-012732,OVER_CAPACITY,CRITICAL,2026-06-01T10:50:59.661+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,33,occupancy 33/28 (118%)
+ALR-0061,OCCUPANCY,OCC-012806,NEAR_CAPACITY,LOW,2026-06-01T10:53:08.013+05:30,PB_UP_LUC_GomtiNagar_TC-57-V,PB Partner,Exp-Centre,< 18,18,occupancy 18/20 (90%) crossed the 90% bracket
+ALR-0062,OCCUPANCY,OCC-012819,OVER_CAPACITY,CRITICAL,2026-06-01T10:53:35.969+05:30,PB_MH_NAS_Mumbai_Naka,PB Partner,Exp-Centre,<= 20,25,occupancy 25/20 (125%)
+ALR-0063,OCCUPANCY,OCC-013086,OVER_CAPACITY,CRITICAL,2026-06-01T11:03:33.536+05:30,PB_GU_AHM_VijayCross,Paisabazaar,Store-Paisa-PB Connect,<= 10,12,occupancy 12/10 (120%)
+ALR-0064,OCCUPANCY,OCC-013125,OVER_CAPACITY,CRITICAL,2026-06-01T11:05:14.779+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,34,occupancy 34/28 (121%)
+ALR-0065,OCCUPANCY,OCC-013228,OVER_CAPACITY,CRITICAL,2026-06-01T11:10:24.085+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,<= 14,18,occupancy 18/14 (129%)
+ALR-0066,OCCUPANCY,OCC-013324,OVER_CAPACITY,CRITICAL,2026-06-01T11:17:15.136+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,<= 298,299,occupancy 299/298 (100%)
+ALR-0067,OCCUPANCY,OCC-013341,NEAR_CAPACITY,LOW,2026-06-01T11:18:14.830+05:30,PB_KT_BAN_Reliable Phoenix Tower,PB Partner,Exp-Centre,< 41,41,occupancy 41/45 (91%) crossed the 90% bracket
+ALR-0068,OCCUPANCY,OCC-013383,OVER_CAPACITY,CRITICAL,2026-06-01T11:21:48.646+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,<= 261,262,occupancy 262/261 (100%)
+ALR-0069,OCCUPANCY,OCC-013385,OVER_CAPACITY,CRITICAL,2026-06-01T11:21:57.698+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,<= 298,300,occupancy 300/298 (101%)
+ALR-0070,OCCUPANCY,OCC-013392,OVER_CAPACITY,CRITICAL,2026-06-01T11:22:40.391+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,<= 298,301,occupancy 301/298 (101%)
+ALR-0071,OCCUPANCY,OCC-013435,OVER_CAPACITY,CRITICAL,2026-06-01T11:26:53.294+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,<= 261,263,occupancy 263/261 (101%)
+ALR-0072,OCCUPANCY,OCC-013441,OVER_CAPACITY,CRITICAL,2026-06-01T11:27:17.665+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,<= 261,264,occupancy 264/261 (101%)
+ALR-0073,OCCUPANCY,OCC-013511,OVER_CAPACITY,CRITICAL,2026-06-01T11:36:08.376+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,<= 298,302,occupancy 302/298 (101%)
+ALR-0074,OCCUPANCY,OCC-013532,OVER_CAPACITY,CRITICAL,2026-06-01T11:39:48.121+05:30,PB_UP_VAR_Maldhaiya,PB Partner,Exp-Centre,<= 14,19,occupancy 19/14 (136%)
+ALR-0075,OCCUPANCY,OCC-013534,OVER_CAPACITY,CRITICAL,2026-06-01T11:40:27.682+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,<= 261,265,occupancy 265/261 (102%)
+ALR-0076,OCCUPANCY,OCC-013537,OVER_CAPACITY,CRITICAL,2026-06-01T11:40:54.965+05:30,PB_UP_NOI_Sector 59,Paisabazaar,Branch Office,<= 28,35,occupancy 35/28 (125%)
+ALR-0077,OCCUPANCY,OCC-013547,OVER_CAPACITY,CRITICAL,2026-06-01T11:42:18.007+05:30,PB_HR_GUR_P116-Sector44,Policybazaar,Corp,<= 298,303,occupancy 303/298 (102%)
+ALR-0078,SITE_SYNC,SYN-00141,ENTITY_MISMATCH,MEDIUM,2026-06-01T11:50:14.333+05:30,PB_DL_DEL_Kailash,Policybazaar,Exp-Centre,PB Partner,Policybazaar,entity not registered at this location code
+ALR-0079,OCCUPANCY,OCC-013586,OVER_CAPACITY,CRITICAL,2026-06-01T11:50:19.714+05:30,PB_TN_CHE_T.Nagar,PB Partner,Exp-Centre,<= 16,20,occupancy 20/16 (125%)
+ALR-0080,OCCUPANCY,OCC-013635,OVER_CAPACITY,CRITICAL,2026-06-01T12:12:51.058+05:30,PB_HR_GUR_P119-Sector44,Policybazaar,Corp,<= 261,266,occupancy 266/261 (102%)
+ALR-0081,SITE_SYNC,SYN-00154,SEAT_COUNT_VARIANCE,LOW,2026-06-01T12:26:30.985+05:30,PB_KT_BAN_Reliable Phoenix Tower,PB Partner,Exp-Centre,45,43,diff -2 seats (4.4%) within 5% bracket
+ALR-0082,SITE_SYNC,SYN-00158,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T12:45:02.696+05:30,PB_AP_VIJ_Lakshmi Nagar,Policybazaar,Corp,FOS-Policy,Corp,office type not registered for this code + entity
+ALR-0083,OCCUPANCY,OCC-013648,DOUBLE_CHECKIN,HIGH,2026-06-01T12:46:35.856+05:30,PB_MP_IND_Race Course Road,Policybazaar,FOS-Policy,no open check-in elsewhere,still inside PB_HR_GUR_P129-Sector44,E542828 checked in at PB_MP_IND_Race Course Road while still checked in at PB_HR_GUR_P129-Sector44
+ALR-0084,OCCUPANCY,OCC-013649,DOUBLE_CHECKIN,HIGH,2026-06-01T13:01:34.436+05:30,PB_HR_GUR_P116-Sector44,PB HealthCare,Corp,no open check-in elsewhere,still inside PB_KL_KOC_Ernakulam,E485456 checked in at PB_HR_GUR_P116-Sector44 while still checked in at PB_KL_KOC_Ernakulam
+ALR-0085,OCCUPANCY,OCC-013650,DOUBLE_CHECKIN,HIGH,2026-06-01T13:13:38.707+05:30,PB_HR_GUR_P110-Sector44,PB Partner,Corp,no open check-in elsewhere,still inside PB_DL_DEL_BP-7 West Patel Nagar,E326441 checked in at PB_HR_GUR_P110-Sector44 while still checked in at PB_DL_DEL_BP-7 West Patel Nagar
+ALR-0086,OCCUPANCY,OCC-013651,DOUBLE_CHECKIN,HIGH,2026-06-01T13:15:50.964+05:30,PB_TN_CHE_TidelPark Taramani,Policybazaar,Corp,no open check-in elsewhere,still inside PB_KT_BAN_HM Towers,E258284 checked in at PB_TN_CHE_TidelPark Taramani while still checked in at PB_KT_BAN_HM Towers
+ALR-0087,SITE_SYNC,SYN-00180,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T13:46:33.050+05:30,PB_HR_GDR_P205_Jail land,Paisabazaar,Store-Paisa-BL Retail,code present in master,'PB_HR_GDR_P205_Jail land',location code not found in master
+ALR-0088,SITE_SYNC,SYN-00201,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T14:49:36.792+05:30,TN_CHE_TidelPark Taramani,Paisabazaar,Corp,code present in master,'TN_CHE_TidelPark Taramani',location code not found in master
+ALR-0089,SITE_SYNC,SYN-00204,SEAT_COUNT_VARIANCE,LOW,2026-06-01T14:53:32.255+05:30,PB_MH_MUM_Malad East,PB Partner,Exp-Centre,40,39,diff -1 seats (2.5%) within 5% bracket
+ALR-0090,OCCUPANCY,OCC-013652,DOUBLE_CHECKIN,HIGH,2026-06-01T14:56:59.901+05:30,PB_WB_KOL_Bidhannagar,Policybazaar,Corp,no open check-in elsewhere,still inside PB_HR_GUR_P120-Sector44,E406849 checked in at PB_WB_KOL_Bidhannagar while still checked in at PB_HR_GUR_P120-Sector44
+ALR-0091,OCCUPANCY,OCC-013653,DOUBLE_CHECKIN,HIGH,2026-06-01T15:08:09.642+05:30,PB_MH_MUM_Mahape,Policybazaar,Branch Office,no open check-in elsewhere,still inside PB_HR_GUR_P57-Sector44,E596144 checked in at PB_MH_MUM_Mahape while still checked in at PB_HR_GUR_P57-Sector44
+ALR-0092,OCCUPANCY,OCC-013654,DOUBLE_CHECKIN,HIGH,2026-06-01T15:09:18.776+05:30,PB_GU_VAD_Gautam Nagar,PB Partner,Exp-Centre,no open check-in elsewhere,still inside PB_JH_RAN_Jokhiram Chamber,E442641 checked in at PB_GU_VAD_Gautam Nagar while still checked in at PB_JH_RAN_Jokhiram Chamber
+ALR-0093,SITE_SYNC,SYN-00214,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T15:21:12.153+05:30,PB_GU_VAD_Gautam Nagar,PB Partner,Internaltional,Exp-Centre,Internaltional,office type not registered for this code + entity
+ALR-0094,OCCUPANCY,OCC-013655,DOUBLE_CHECKIN,HIGH,2026-06-01T15:22:11.406+05:30,PB_DL_DEL_Kailash,PB Partner,Exp-Centre,no open check-in elsewhere,still inside PB_HR_GUR_P107-Sector44,E971415 checked in at PB_DL_DEL_Kailash while still checked in at PB_HR_GUR_P107-Sector44
+ALR-0095,SITE_SYNC,SYN-00215,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T15:24:46.582+05:30,PB_HR_GUR_P84-Sector44,Policybazaar,FOS-Policy,Corp,FOS-Policy,office type not registered for this code + entity
+ALR-0096,SITE_SYNC,SYN-00228,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T16:02:20.892+05:30,HR_GUR_P109-Sector44,PB Partner,Corp,code present in master,'HR_GUR_P109-Sector44',location code not found in master
+ALR-0097,SITE_SYNC,SYN-00229,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T16:05:51.530+05:30,PB_HR_GUR_P95-Sector44,Policybazaar,Corp,1011,1175,diff +164 seats (16.2%) exceeds 5% bracket
+ALR-0098,SITE_SYNC,SYN-00233,ENTITY_MISMATCH,MEDIUM,2026-06-01T16:13:23.490+05:30,PB_HR_GUR_P120-Sector44,Pensionbazaar,Corp,Policybazaar,Pensionbazaar,entity not registered at this location code
+ALR-0099,SITE_SYNC,SYN-00243,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T16:36:51.189+05:30,PB_OD_BHU_Bhoi Nagar,Paisabazaar,Server,0,29,"master has 0 seats, ERP reports seats"
+ALR-0100,SITE_SYNC,SYN-00249,CITY_MISMATCH,MEDIUM,2026-06-01T16:54:26.517+05:30,PB_HR_GUR_P116-Sector44,PB HealthCare,Corp,Gurgaon,Mysore,city differs from master
+ALR-0101,SITE_SYNC,SYN-00253,MISSING_LOCATION_CODE,HIGH,2026-06-01T17:16:23.337+05:30,,Paisabazaar,Store-Paisa-BL Retail,non-empty location code,<blank>,ERP record has no location code
+ALR-0102,SITE_SYNC,SYN-00254,MISSING_LOCATION_CODE,HIGH,2026-06-01T17:20:26.032+05:30,,PB Partner,Exp-Centre,non-empty location code,<blank>,ERP record has no location code
+ALR-0103,SITE_SYNC,SYN-00279,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T18:40:23.771+05:30,PB_HR_GUR_P109-Sector44,PB Partner,Corp,593,448,diff -145 seats (24.5%) exceeds 5% bracket
+ALR-0104,SITE_SYNC,SYN-00285,MISSING_LOCATION_CODE,HIGH,2026-06-01T18:55:11.827+05:30,,Policybazaar,FOS-Policy,non-empty location code,<blank>,ERP record has no location code
+ALR-0105,SITE_SYNC,SYN-00289,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T19:03:55.388+05:30,PB_UP_LUC_Eldeco Chamber 2,Policybazaar,FOS-Policy,28,21,diff -7 seats (25.0%) exceeds 5% bracket
+ALR-0106,SITE_SYNC,SYN-00290,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T19:04:25.198+05:30,PB_OD_BHU_Bhoi Nagar,Paisabazaar,Server,0,38,"master has 0 seats, ERP reports seats"
+ALR-0107,SITE_SYNC,SYN-00291,CITY_MISMATCH,MEDIUM,2026-06-01T19:16:13.708+05:30,PB_CH_CHD_Sector27-C,PB Partner,Exp-Centre,Chandigarh,Guwahati,city differs from master
+ALR-0108,SITE_SYNC,SYN-00292,CITY_MISMATCH,MEDIUM,2026-06-01T19:18:23.934+05:30,PB_HR_GUR_P131-Sector44,PB Partner,Branch Office,Gurgaon,Visakhapatnam,city differs from master
+ALR-0109,SITE_SYNC,SYN-00301,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T19:44:14.971+05:30,UP_LUC_Eldeco Chamber 2,Paisabazaar,Store-Paisa-PB Connect,code present in master,'UP_LUC_Eldeco Chamber 2',location code not found in master
+ALR-0110,SITE_SYNC,SYN-00307,OFFICE_TYPE_MISMATCH,MEDIUM,2026-06-01T19:47:14.317+05:30,PB_CH_CHD_Sector27-C,PB Partner,FOS-Policy,Exp-Centre,FOS-Policy,office type not registered for this code + entity
+ALR-0111,SITE_SYNC,SYN-00312,ENTITY_MISMATCH,MEDIUM,2026-06-01T19:57:16.806+05:30,PB_UP_LUC_Eldeco Chamber 2,Icall Support,Store-Paisa-PB Connect,Paisabazaar / Policybazaar,Icall Support,entity not registered at this location code
+ALR-0112,SITE_SYNC,SYN-00317,SEAT_COUNT_VARIANCE,LOW,2026-06-01T20:03:34.380+05:30,PB_HR_GUR_P131-Sector44,Icall Support,Branch Office,144,150,diff +6 seats (4.2%) within 5% bracket
+ALR-0113,SITE_SYNC,SYN-00327,MISSING_LOCATION_CODE,HIGH,2026-06-01T20:23:01.333+05:30,,Paisabazaar,Corp,non-empty location code,<blank>,ERP record has no location code
+ALR-0114,SITE_SYNC,SYN-00328,UNKNOWN_LOCATION_CODE,HIGH,2026-06-01T20:27:46.285+05:30,PB_TN_COI_Peelamed5,Policybazaar,FOS-Policy,code present in master,'PB_TN_COI_Peelamed5',location code not found in master
+ALR-0115,SITE_SYNC,SYN-00333,CITY_MISMATCH,MEDIUM,2026-06-01T20:46:20.098+05:30,PB_KT_MYS_1stMain_Temple_Road,PB Partner,Exp-Centre,Mysore,Vijayawada,city differs from master
+ALR-0116,SITE_SYNC,SYN-00340,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T20:58:05.620+05:30,PB_KL_KOC_Ernakulam,Policybazaar,Corp,658,872,diff +214 seats (32.5%) exceeds 5% bracket
+ALR-0117,SITE_SYNC,SYN-00359,SEAT_COUNT_MISMATCH,HIGH,2026-06-01T21:44:47.916+05:30,PB_KT_BAN_HM Towers,Paisabazaar,Branch Office,35,46,diff +11 seats (31.4%) exceeds 5% bracket
+ALR-0118,SITE_SYNC,SYN-00363,SEAT_COUNT_VARIANCE,LOW,2026-06-01T21:55:20.602+05:30,PB_HR_GUR_P57-Sector44,Policybazaar,Corp,1676,1655,diff -21 seats (1.3%) within 5% bracket
